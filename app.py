@@ -47,13 +47,13 @@ def form():
     gif=""
     output = {"prediction":keys[str(prediction[0])]}
     if(prediction[0] == 1):
-        gif="https://media.giphy.com/media/SWj2IjMLEvnOdaT9Sx/giphy.gif"
+        gif="https://media.giphy.com/media/LCdPNT81vlv3y/giphy.gif"
     elif(prediction[0] == 2):
-        gif="https://media.giphy.com/media/ibXYwKoCdGuATx1alX/giphy.gif"
+        gif="https://media.giphy.com/media/3orieM0nCVXSnlgKXe/giphy.gif"
     elif(prediction[0] == 3):
-        gif="https://media.giphy.com/media/JoP7eSJ4pgClIO0opn/giphy.gif"
+        gif="https://media.giphy.com/media/3o6MbuopRH7WatFwC4/giphy.gif"
     else:
-        gif="https://media.giphy.com/media/hvYQVRGaGPGDD0bBce/giphy.gif"    
+        gif="https://media.giphy.com/media/80TEu4wOBdPLG/giphy.gif"    
     return render_template("index.html",output=output, gif=gif)
 
     
